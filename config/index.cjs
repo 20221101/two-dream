@@ -20,7 +20,7 @@ SWITCH: {
   horoscope: true,
 },
   USERS: [{id:'oCP5y6DSfvLtkLnkTIrc8mS0ao_8',
-          useTemplateId: 'AeGLVZBwDTCuyBzTsK1Ao5FYBRVtmcVrT4bk7pDFjJY',
+          useTemplateId: 'wVsBirQKAsVnWVuMoDZWDa_gmr1rtbbg7WUtv_bt9I0',
           horoscopeDate: '12-27',
            festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -44,11 +44,11 @@ SWITCH: {
           },
     {
       // 想要发送的人的名字
-      name: '小徐同学',
+      name: '小尚同学',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oCP5y6JQXIH_c1t92JPUUOdLO5vI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'AeGLVZBwDTCuyBzTsK1Ao5FYBRVtmcVrT4bk7pDFjJY',
+      useTemplateId: 'wVsBirQKAsVnWVuMoDZWDa_gmr1rtbbg7WUtv_bt9I0',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
