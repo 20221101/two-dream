@@ -33,7 +33,7 @@ SWITCH: {
           type: '*生日', name: '小尚同学', year: '1999', date: '10-07',
         },
         {
-          type: '节日', name: '相识纪念日', year: '2022', date: '05-11',
+          type: '节日', name: '过年', year: '2022', date: '01-22',
         },
       ],
             customizedDateList: [
