@@ -33,7 +33,7 @@ const TEMPLATE_CONFIG = [
       {{moment_copyrighting.DATA}}
       
       {{one_talk.DATA}} 
-      {{talk_from.DATA}}
+      {{poetry_content.DATA}}
     `
   },
   {
