@@ -23,7 +23,7 @@ SWITCH: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: 'c683f44dd54a46374f9c68a4101c1ce7',
     morningGreeting: true,
-  }
+  },
   USERS: [{id:'oCP5y6DSfvLtkLnkTIrc8mS0ao_8',
           useTemplateId: 'YVvDzD1baiENdHoMUxUyR130kuLSEk_XvQCgTQNx_-I',
           horoscopeDate: '12-27',
