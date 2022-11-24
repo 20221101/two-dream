@@ -25,7 +25,7 @@ SWITCH: {
     morningGreeting: true,
   }
   USERS: [{id:'oCP5y6DSfvLtkLnkTIrc8mS0ao_8',
-          useTemplateId: '3TaJGwxV5mpafOvp08ZkAQ-dsQh0AvAIWzYdgj8X8h0',
+          useTemplateId: 'YVvDzD1baiENdHoMUxUyR130kuLSEk_XvQCgTQNx_-I',
           horoscopeDate: '12-27',
            festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -53,7 +53,7 @@ SWITCH: {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '3TaJGwxV5mpafOvp08ZkAQ-dsQh0AvAIWzYdgj8X8h0',
+      useTemplateId: 'YVvDzD1baiENdHoMUxUyR130kuLSEk_XvQCgTQNx_-I',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
