@@ -19,6 +19,11 @@ SWITCH: {
   oneTalk: true,
   horoscope: true,
 },
+  TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: 'c683f44dd54a46374f9c68a4101c1ce7',
+    morningGreeting: true,
+  }
   USERS: [{id:'oCP5y6DSfvLtkLnkTIrc8mS0ao_8',
           useTemplateId: '3TaJGwxV5mpafOvp08ZkAQ-dsQh0AvAIWzYdgj8X8h0',
           horoscopeDate: '12-27',
@@ -46,7 +51,7 @@ SWITCH: {
       // 想要发送的人的名字
       name: '小尚同学',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oCP5y6GalMA9xzDZmWZ_WJ6BhjYM',
+      id: '',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '3TaJGwxV5mpafOvp08ZkAQ-dsQh0AvAIWzYdgj8X8h0',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
