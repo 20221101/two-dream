@@ -13,16 +13,16 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '4e09847354a39dd4dcb6a5ba43ddcea0',
 
-  PROVINCE: '河南',
-  CITY: '许昌',
+  PROVINCE: '湖北',
+  CITY: '武汉',
 SWITCH: {
   oneTalk: true,
   horoscope: true,
 },
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
-    key: 'c683f44dd54a46374f9c68a4101c1ce7',
-    morningGreeting: true,
+    key: 'e6b36fb57921c6d597897a8e40d72be0',
+    weather: 1,
   },
   USERS: [{id:'oCP5y6MR1MJR83NdZs3fOr847rMo',
           useTemplateId: 'OxoExlcbrjN9WciPeFVO1Tm8oKRgUsKf_TRj105HUtc',
@@ -30,21 +30,21 @@ SWITCH: {
            festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小李同学', year: '2000', date: '11-03',
+          type: '生日', name: '小童同学生日', year: '2003', date: '06-05',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '*生日', name: '小尚同学', year: '1999', date: '10-07',
+          type: '生日', name: '小童同学生日', year: '2003', date: '06-05',
         },
         {
-          type: '节日', name: '过年', year: '2022', date: '01-22',
+          type: '节日', name: '小童同学生日', year: '2003', date: '06-05',
         },
       ],
             customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-05-11' },
+        { keyword: 'love_day', date: '2023-05-15' },
         // 结婚纪念日
-        { keyword: 'birthday_message.DATA', date: '2022-05-11' },
+        { keyword: 'wx_birthday_0', date: '2022-09-09' },
       ],
           },
     {
@@ -59,22 +59,22 @@ SWITCH: {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小李同学', year: '2000', date: '11-03',
+          type: '*生日', name: '小童同学生日', year: '2003', date: '06-05',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '*生日', name: '小尚同学', year: '1999', date: '10-07',
+          type: '*生日', name: '小童同学生日', year: '2003', date: '06-05',
         },
         {
-          type: '节日', name: '过年', year: '2022', date: '01-22',
+          type: '节日', name: '小童同学生日', year: '2003', date: '06-05',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-05-11' },
+        { keyword: 'love_day', date: '2023-05-15' },
         // 结婚纪念日
-        { keyword: 'birthday_message.DATA', date: '2022-05-11' },
+        { keyword: 'wx_birthday_0', date: '2022-09-09' },
       ],
     },
   ],
