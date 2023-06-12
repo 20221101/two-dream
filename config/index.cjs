@@ -24,8 +24,8 @@ SWITCH: {
     key: 'c683f44dd54a46374f9c68a4101c1ce7',
     morningGreeting: true,
   },
-  USERS: [{id:'oCP5y6DSfvLtkLnkTIrc8mS0ao_8',
-          useTemplateId: 'oTrrE1kC71TffxYrFPDmqOoOwKKJjl2UEmIao3zEhbM',
+  USERS: [{id:'oCP5y6MR1MJR83NdZs3fOr847rMo',
+          useTemplateId: 'OxoExlcbrjN9WciPeFVO1Tm8oKRgUsKf_TRj105HUtc',
           horoscopeDate: '12-27',
            festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
@@ -51,9 +51,9 @@ SWITCH: {
       // 想要发送的人的名字
       name: '小尚同学',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oCP5y6GalMA9xzDZmWZ_WJ6BhjYM',
+      id: 'oCP5y6JQXIH_c1t92JPUUOdLO5vI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'oTrrE1kC71TffxYrFPDmqOoOwKKJjl2UEmIao3zEhbM',
+      useTemplateId: 'OxoExlcbrjN9WciPeFVO1Tm8oKRgUsKf_TRj105HUtc',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
