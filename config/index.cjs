@@ -15,10 +15,6 @@ const USER_CONFIG = {
 
   PROVINCE: '湖北',
   CITY: '武汉',
-SWITCH: {
-  oneTalk: true,
-  horoscope: true,
-},
   TIAN_API: {
     // 天行API KEY，如果使用天行API则需要填写此项
     key: 'e6b36fb57921c6d597897a8e40d72be0',
@@ -59,11 +55,11 @@ SWITCH: {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '小童同学生日', year: '2003', date: '06-05',
+          type: '生日', name: '小童同学生日', year: '2003', date: '06-05',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '*生日', name: '小童同学生日', year: '2003', date: '06-05',
+          type: '生日', name: '小童同学生日', year: '2003', date: '06-05',
         },
         {
           type: '节日', name: '小童同学生日', year: '2003', date: '06-05',
